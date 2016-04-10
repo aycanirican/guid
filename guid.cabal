@@ -1,15 +1,15 @@
 name: guid
-version: 0.0.0
+version: 0.1.0
 cabal-version: >=1.10
 build-type: Simple
 license: MIT
 license-file: LICENSE.md
 copyright: 2015 brady.ouren <brady.ouren@gmail.com>
 maintainer: brady.ouren <brady.ouren@gmail.com>
-synopsis: TODO
+synopsis: A simple wrapper around uuid
 description:
-    TODO
-category: TODO
+    A simple wrapper around uuid
+category: base
 author: brady.ouren <brady.ouren@gmail.com>
 tested-with: GHC ==7.8 GHC ==7.6
 extra-source-files:
@@ -22,7 +22,7 @@ source-repository head
 library
   hs-source-dirs: src
   exposed-modules:
-      Data.Guid
+      Data.GUID
   build-depends:
       base ==4.*
     , bytestring

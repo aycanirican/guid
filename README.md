@@ -1,23 +1,16 @@
 guid
 -----
 
+[![Hackage](https://img.shields.io/hackage/v/guid.svg)](http://hackage.haskell.org/package/guid)
 
-``` sh
-# Update Cabal's list of packages.
-cabal update
+A simple wrapper around `uuid`
 
-# Initialize a sandbox and install the package's dependencies.
-make install
+```
+import Data.GUID
 
-# Configure & build the package.
-make build
+> genText
+"59d3fc8d-9d56-44aa-99d3-fc8d9d56b4aa"
 
-# Test package.
-make test
-
-# Run executable.
-make run
-
-# Start REPL.
-make repl
+> genString
+"0a8f83ee-68cc-45e2-8a8f-83ee68ccc5e2"
 ```

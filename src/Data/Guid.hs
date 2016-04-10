@@ -1,4 +1,4 @@
-module Data.Guid where
+module Data.GUID where
 
 import Data.Text
 import Data.UUID.Types
